@@ -11,4 +11,12 @@ defmodule ChargebeeElixir.HostedPage do
   def checkout_existing(params) do
     create(params, "/checkout_existing")
   end
+  
+    def checkout_new_for_items(params) do
+    create(params, "/checkout_new_for_items")
+  end
+
+  def checkout_existing_for_items(params) do
+    create(params, "/checkout_existing_for_items")
+  end
 end
