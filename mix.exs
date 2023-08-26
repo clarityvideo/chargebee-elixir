@@ -33,7 +33,7 @@ defmodule ChargebeeElixir.MixProject do
     [
       {:inflex, "~> 2.0"},
       {:jason, "~> 1.0"},
-      {:httpoison, "~> 2.1"},
+      {:httpoison, ">= 1.6"},
       {:ex_doc, "~> 0.23", only: :dev, runtime: false},
       {:mox, "~>1.0", only: [:test]},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
